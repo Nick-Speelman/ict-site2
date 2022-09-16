@@ -5,3 +5,6 @@ header{
   background-color:green;
   height:200px
 }
+.content{
+  display:flex;
+        }

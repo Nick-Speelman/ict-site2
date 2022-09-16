@@ -2,9 +2,22 @@ body{
   margin:0;
 }
 header{
-  background-color:green;
+  background-color:#00fffb;
   height:200px
 }
 .content{
   display:flex;
         }
+nav{
+  width:15vw;
+  color:black;
+  background-color:#e3dac4
+}
+article{
+  width:80vw;
+  padding:20px;
+}
+aside{
+  width:5vw;
+  
+}

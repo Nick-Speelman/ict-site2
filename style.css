@@ -4,6 +4,8 @@ body{
 header{
   background-color:#00fffb;
   height:200px
+  
+  
 }
 .content{
   display:flex;
@@ -12,12 +14,15 @@ nav{
   width:15vw;
   color:black;
   background-color:#e3dac4
+  
+  
 }
 article{
   width:80vw;
   padding:20px;
+  margin:15px;
 }
 aside{
   width:5vw;
-  
+  background-color: #00ccff;
 }

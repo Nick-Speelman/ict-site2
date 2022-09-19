@@ -2,10 +2,14 @@ body{
   margin:0;
 }
 header{
-  background-color:#00fffb;
-  height:200px
-  
-  
+  background-color:#2bb6b3;
+  height:200px;
+  text-align: center;
+
+}
+h1 {
+  padding: 70px;
+  font-size: 90px;
 }
 .content{
   display:flex;

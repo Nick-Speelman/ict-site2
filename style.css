@@ -1,11 +1,13 @@
 body{
   margin:0;
+  background-color: #e1dbdb;
 }
 header{
   background-color:#2bb6b3;
   height:200px;
   text-align: center;
-
+  border-bottom-style: solid;
+  border-bottom-color: #50dcda;
 }
 h1 {
   padding: 70px;
@@ -29,4 +31,8 @@ article{
 aside{
   width:5vw;
   background-color: #00ccff;
+}
+footer{
+  background-color: #d66161;
+  height: 100px;
 }

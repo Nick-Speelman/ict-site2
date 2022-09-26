@@ -16,15 +16,23 @@ h1 {
   display:flex;
         }
 nav{
-  width:15vw;
+  
   color:black;
   background-color:#e3dac4;
-  padding:10px;
   display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
   
+}
+nav a {
+  color:black;
+  text-align:center;
+  text-decoration:none;
+  flex-grow:1;
+  margin:5px;
+  padding:10px 5px;
+  background-color:blue;
 }
 article{
   width:80vw;

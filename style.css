@@ -32,11 +32,11 @@ nav a {
   background-color:#0dc3e7;
 }
 nav2{
+  
   background-color:green;
   display: flex;
   flex-direction: column
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: block;
   width:20vw;
   
 }

@@ -46,7 +46,7 @@ article{
   margin:15px;
   
 }
-body:before {
+body1:before {
 content: "";
 display: block;
 width: 100%;

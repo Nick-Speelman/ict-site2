@@ -66,6 +66,9 @@ aside{
   background-color: #00ccff;
 }
 .active{
-    text-color:green
-  ;
+   
   }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

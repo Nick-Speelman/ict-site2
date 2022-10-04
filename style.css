@@ -9,10 +9,14 @@ h1 {
   font-size: 80px;
   text-align:center;
 }
+.video{
+  
+}
 .content{
   display:flex;
+  width: 150ch;
         }
-nav{
+.topNav{
   
   color:black;
   background-color:#0dc3e7;
@@ -22,7 +26,7 @@ nav{
     justify-content: flex-start;
   padding:10px 5px;
 }
-nav a {
+.topNav a {
   color:black;
   text-align:center;
   text-decoration:none;
@@ -31,9 +35,19 @@ nav a {
   padding:10px 5px;
   background-color:#0dc3e7;
 }
-.twee{
+
+.sideNav{  
+  background-color:#23af9e;
+  display: flex;
+  flex-direction: column;
+  display: block;
+  width:20vw;
   
-  background-color:green;
+}
+
+.drie{
+  
+  background-color:#23af9e;
   display: flex;
   flex-direction: column
   display: block;
@@ -58,7 +72,7 @@ z-index: -10;
 background-image: url(https://www.nen.nl/media/Vakgebieden/Zorg_en_welzijn/digitaal_hartslag_applicaties_zorg_1200x630.png);
 background-repeat: no-repeat;
 background-size: cover;
-background-position: left top;
+background-position: center;
 background-color: lightblue;
 }
 aside{
@@ -66,9 +80,8 @@ aside{
   background-color: #00ccff;
 }
 .active{
-   
+    color:green;
   }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
+
+
+

@@ -1,0 +1,15 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+body {
+  background-image: url(https://th.bing.com/th/id/R.1510fe8202711595e506301e5deba565?rik=PBgir9iWaMT5ww&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fc%2f6%2f765090-most-popular-technology-background-images-1920x1080-hd-for-mobile.jpg&ehk=KDO%2bHwG4BBm8CSdSPoZRGAb2G%2fQeAhEnqFBc7JGvL7w%3d&risl=&pid=ImgRaw&r=0);
+  
+}
+table {
+  margin:75px;
+}
+table {
+  font-size: 1.5em;
+}

@@ -9,7 +9,9 @@ body {
 }
 table {
   margin:75px;
-}
-table {
   font-size: 1.5em;
+  
+}
+table, text {
+  color: white;
 }

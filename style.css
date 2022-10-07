@@ -82,6 +82,11 @@ aside{
 .active{
     color:green;
   }
+.infopage {
+  background-image: url(https://i1.wp.com/praxa.pe/wp-content/uploads/2019/03/cropped-tech-background-hd-1.png?fit=1920%2C905);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 

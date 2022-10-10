@@ -19,9 +19,7 @@ h1 {
   width: 150ch;
   }
 }
-@media (min-width: 800px) {
-  
-}
+
 
 .content{
   display:flex;

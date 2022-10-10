@@ -5,8 +5,8 @@ table, th, td {
 }
 body {
   background-image: url(https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg);
-  
 }
+
 table {
   margin:75px;
   font-size: 1.5em;
@@ -18,15 +18,18 @@ table, text {
 }
 table {
   max-width: 50%;
+ 
 }
 th {
     display: table-cell;
-    vertical-align: inherit;
     font-weight: bold;
     text-align: -internal-center;
 }
 thead {
     display: table-header-group;
     vertical-align: middle;
-    border-color: inherit;
+  
+}
+caption {
+  font-size: 300%;
 }

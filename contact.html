@@ -3,21 +3,53 @@
 <html>
 <head>
 
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ict</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="contact.css" rel="stylesheet" type="text/css" />
 </head>
 
   
 <nav class="topNav">
-    <a href="/">Home</a>
-    <a href="info.html">Info</a>
-    <a href="overons.html">About us</a>
+    <a class="not" href="/">Home</a>
+    <a class="not" href="info.html">Info</a>
+    <a class="not" href="about-us.html">About us</a>
     <a class="active" href="contact.html">Contact</a>
     
   </nav>
   <body>
-   Contact
+    <center>
+    <p>Als je vragen hebt, kan je die hier stellen!</p>
+    <form>
+      <p>Naam en achternaam:</p>
+      <p><input type="text" name="name" placeholder="Naam"></p>
+      <p>E-mail</p>
+      <input type="email" size="20" maxlength="40" placeholder="E-mail adress" name="Mail" required="">
+      <p>Telefoonnummer:</p>
+      <input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder="telefoonnummer" 
+      name="telefoonnummer" required="">
+      <p>Land</p>
+      <select name="kies land hier">
+        <option>Nederland</option>
+        <option>Germany</option>
+        <option>België</option>
+        <option>England</option>
+        <option>United States</option>
+        <option>France</option>
+        <option>Italy</option>
+        <option>Spain</option>
+        <option>Other</option>
+      </select>
+      <p>Gender:</p>
+      <p> <input type="radio" name="gender" value="male"> Male</p>
+       <p> <input type="radio" name="gender" value="female"> Female</p>
+       <p> <input type="radio" name="gender" value="attack helicopter"> Attack helicopter</p>
+       <p> <input type="radio" name="gender" value="Other"> Other</p>
+      <p>Vraag:</p>
+      <textarea rows="5" cols="25" placeholder="vul hier uw vraag in" name="Vragen" required=""> 
+      </textarea>
+    </form>
+      </center>
   </body>
 </html>

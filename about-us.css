@@ -4,7 +4,7 @@ table, th, td {
   
 }
 body {
-  background-image: url(https://th.bing.com/th/id/R.1510fe8202711595e506301e5deba565?rik=PBgir9iWaMT5ww&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fc%2f6%2f765090-most-popular-technology-background-images-1920x1080-hd-for-mobile.jpg&ehk=KDO%2bHwG4BBm8CSdSPoZRGAb2G%2fQeAhEnqFBc7JGvL7w%3d&risl=&pid=ImgRaw&r=0);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg);
   
 }
 table {
@@ -14,4 +14,19 @@ table {
 }
 table, text {
   color: white;
+  
+}
+table {
+  max-width: 50%;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
 }

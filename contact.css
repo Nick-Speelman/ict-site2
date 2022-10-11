@@ -28,3 +28,13 @@ background-size: cover;
 background-position: center;
 background-color: lightblue;
 }
+@media (max-width: 425px) {
+ form {
+    width: 52%;
+  }
+}
+@media (max-width: 325px) {
+ form {
+    width: 60%;
+  }
+}

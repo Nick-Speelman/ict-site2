@@ -14,6 +14,12 @@ background-size: cover;
 background-position: center;
 background-color: lightblue;
 }
+@media (max-width: 425px){
+  .video {
+    width: auto;
+    height: 200px;
+  }
+}
 
 
 

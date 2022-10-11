@@ -33,3 +33,6 @@ thead {
 caption {
   font-size: 300%;
 }
+table {
+  cell-spacing: 0;
+}

@@ -51,9 +51,9 @@ color:black;
 
 .sideNav{  
   background-color:#23af9e;
-  display: flex;
-  flex-direction: column;
-  display: block;
+  
+  
+  
   width:20vw;
   padding:20px
   
@@ -72,16 +72,16 @@ color:black;
   
   background-color:#23af9e;
   display: flex;
-  flex-direction: column
-  display: block;
+  
+  
   width: 20vw;
   
 }
 article{
-  width:80vw;
+
   padding:40px;
   margin:15px;
-  
+  width:80vw;
 }
 .een:before {
 content: "";

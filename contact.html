@@ -5,7 +5,7 @@
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ict</title>
+    <title>ICT in de zorg</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="contact.css" rel="stylesheet" type="text/css" />
 </head>
@@ -27,7 +27,7 @@
       <p>E-mail</p>
       <input type="email" size="20" maxlength="40" placeholder="E-mail adress" name="Mail" required="">
       <p>Telefoonnummer:</p>
-      <input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder="telefoonnummer" 
+      <input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder="Telefoonnummer" 
       name="telefoonnummer" required="">
       <p>Land</p>
       <select name="kies land hier">
@@ -41,11 +41,14 @@
         <option>Spanje</option>
         <option>Anders</option>
       </select>
-      <p>Gender:</p>
+      <fieldset>
+        <legend>Kies uw gender:</legend>
+      
       <p> <input type="radio" name="gender" value="man"> Man</p>
        <p> <input type="radio" name="gender" value="vrouw"> Vrouw</p>
        <p> <input type="radio" name="gender" value="attack helicopter"> Attack helicopter</p>
        <p> <input type="radio" name="gender" value="anders"> Anders</p>
+        </fieldset>
       <p>Vraag:</p>
       <textarea rows="5" cols="25" placeholder="vul hier uw vraag in" name="Vragen" required="">
       </textarea>

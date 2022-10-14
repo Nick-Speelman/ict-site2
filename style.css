@@ -19,9 +19,6 @@ h1 {
   width: 150ch;
   }
 }
-
-
-
 .topNav{
   
   
@@ -36,7 +33,6 @@ h1 {
 color:black;  
 }
 .topNav a {
-  
   text-align:center;
   text-decoration:none;
   flex-grow:1;
@@ -45,13 +41,9 @@ color:black;
   background-color:#0dc3e7;
 }
 
-
-
-
 .active{
     color:darkblue;
   }
-
 img {
   max-width: 100%;
   display: block;
